@@ -92,9 +92,4 @@ A lightweight Python service that processes video feeds (or demo video files) to
    ```
    *(Note: The script currently listens to demo video streams triggered by the Flutter app for testing. It updates Firebase when it detects a person).*
 
----
 
-## Security Best Practices
-- **Never commit your `.env`, `secrets.h`, or `secrets.dart` files.** They are already included in the `.gitignore`.
-- Keep your Firebase Realtime Database rules restricted to authenticated users or tightly defined paths in production.
-- Do not expose your Wi-Fi credentials in public repositories.
