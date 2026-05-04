@@ -8,10 +8,12 @@
 #include <time.h>
 #include <DHT.h>
 
-#define WIFI_NAME "galaxy54321"
-#define WIFI_PASS "Bhumibhumi"
+#include "secrets.h"
 
-#define FIREBASE_API_KEY "AIzaSyDw_vLWToV0NuoEzIqp_q2pTSRPuh6xnYg"
+#define WIFI_NAME SECRET_WIFI_NAME
+#define WIFI_PASS SECRET_WIFI_PASS
+
+#define FIREBASE_API_KEY SECRET_FIREBASE_API_KEY
 #define FIREBASE_DB_URL  "https://smart-energy-4f0a2-default-rtdb.asia-southeast1.firebasedatabase.app"
 
 #define RELAY_PIN          25
